@@ -136,7 +136,7 @@ The quick start gives very basic example of running client and server on the sam
        http://api.weibo.com/schema/motan http://api.weibo.com/schema/motan.xsd">
 
         <!-- reference to the remote service -->
-        <motan:referer id="remoteService" interface="quickstart.FooService" directUrl="localhost:8002"/>
+        <motan:referer id="remoteService" interface="quickstart.FooService" directUrl="机器一:8002"/>
     </beans>
     ```
 
